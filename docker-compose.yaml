@@ -161,9 +161,9 @@ services:
       timeout: 10s
       retries: 3
     # Uncomment to enable Instana EUM
-    # environment:
-      # INSTANA_EUM_KEY: <your eum key>
-      # INSTANA_EUM_REPORTING_URL: <your reporting url>
+    environment:
+       INSTANA_EUM_KEY: 1dn27-toQiG3Xrxweerf0g
+       INSTANA_EUM_REPORTING_URL: https://eum-coral-saas.instana.io
     logging:
       <<: *logging
 
